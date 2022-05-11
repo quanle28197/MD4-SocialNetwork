@@ -56,7 +56,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             roleService.save(roleUser);
         }
         if (users.isEmpty()) {
-            User admin = new User("admin","thuthuyda1");
+            User admin = new User("admin","123");
             userService.saveAdmin(admin);
         }
     }
